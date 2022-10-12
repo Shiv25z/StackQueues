@@ -5,11 +5,11 @@ import java.util.LinkedList;
 public class MyQueueOps {
     LinkedList<Integer> list = new LinkedList<>();
 
-    public void offer(Integer data){
+    public void enqueue(Integer data){
         list.addLast(data);
         System.out.println(list);
     }
-    public void poll(){
+    public void dequeue(){
         list.pollFirst();
         System.out.println(list);
     }
