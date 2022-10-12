@@ -10,4 +10,12 @@ public class MyStackOps {
     public void printer(){
         System.out.println(list);
     }
+    public void peek() {
+        System.out.println(list.peek());
+    }
+
+    public void pop() {
+        System.out.println( list.pop());
+
+    }
 }
