@@ -15,12 +15,12 @@ public class StacksQueues {
         stack.printer();
 
 
-        MyQueueOps enqueue = new MyQueueOps();// UC3
-        enqueue.offer(56);
-        enqueue.offer(30);
-        enqueue.offer(70);
+        MyQueueOps queue = new MyQueueOps();// UC3
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
 
-        enqueue.printer();
-        enqueue.poll();
+        queue.printer();
+        queue.dequeue();//UC4
     }
 }
