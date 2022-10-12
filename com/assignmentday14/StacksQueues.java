@@ -13,5 +13,14 @@ public class StacksQueues {
         stack.peek();
         stack.pop();
         stack.printer();
+
+
+        MyQueueOps enqueue = new MyQueueOps();// UC3
+        enqueue.offer(56);
+        enqueue.offer(30);
+        enqueue.offer(70);
+
+        enqueue.printer();
+        enqueue.poll();
     }
 }
